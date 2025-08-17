@@ -1,0 +1,23 @@
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Card from "./components/Card";
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  let newarray = [1, 2, 3, 4];
+  return (
+    <>
+      <h1 className="text-3xl bg-green-500 p-3 rounded-md">
+        Vite with tailwind
+      </h1>
+      <Card username="Aneesh" myarr={newarray} /> // if i want to write an array
+      <Card username="Hehe" post="staff" />
+      <Card />
+    </>
+  );
+}
+
+export default App;
