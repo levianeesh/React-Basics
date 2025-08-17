@@ -37,7 +37,14 @@ Welcome to my collection of **10 React projects** — each crafted to explore an
 
 Each project is organized in its own folder with the following structure:
 
-project-name/ ├── public/ ├── src/ │ ├── components/ │ ├── App.js │ └── index.js ├── package.json └── README.md
+project-name/ 
+├── public/ 
+├── src/ 
+│ ├── components/ 
+│ ├── App.js 
+│ └── index.js 
+├── package.json 
+└── README.md
 
 
 ---
